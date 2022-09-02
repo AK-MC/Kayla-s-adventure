@@ -1,6 +1,12 @@
 # Kayla-s-adventure
 200 anos após a pandemia de 2019, o ser humano se vê novamente no meio de uma nova calamidade.  Dessa vez, é consenso entre a sociedade científica que a Terra se tornará inabitável nos próximos anos. Assim, uma nova missão de reconhecimento para o planeta Gj-504b, que se mostra como o planeta mais adequado para o povoamento da raça humana. A nova equipe de reconhecimento é composta pela "capitã" da missão, Kayla. Além do engenheiro e projetista da nave,  um idoso que participou de uma antiga missão com o mesmo intuito e uma adolescente que não fazia parte da missão oficial. Assim, eles partem para o desconhecido.
 
+PERSONAGENS
+Kayla: Lider da missão
+Alef: Engenheiro e projetista aeroespacial, idealizador da nave.
+Otto: Idoso, participou da última missão de reconhecimento. Único sobrevivente.
+Yoko: Adolescente, não era para participar da missão. 
+
 # Referencias
 Starfinder RPG;
 O paradoxo Cloverfield
