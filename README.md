@@ -1,5 +1,5 @@
 # Kayla-s-adventure
-200 anos após a pandemia de 2019, o ser humano se vê novamente no meio de uma nova calamidade.  Dessa vez, é consenso entre a sociedade científica que a Terra se tornará inabitável nos próximos anos. Assim, uma nova missão de reconhecimento para o planeta Gj-504b, que se mostra como o planeta mais adequado para o povoamento da raça humana. A nova equipe de reconhecimento é composta pela "capitã" da missão, Kayla, juntamente com o engenheiro e projetista da nave, um idoso que participou de uma antiga missão com o mesmo intuito, além de uma adolescente que não fazia parte da missão oficial. Assim, eles partem para o desconhecido.
+200 anos após a pandemia de 2019, o ser humano se vê novamente no meio de uma nova calamidade.  Dessa vez, é consenso entre a sociedade científica que a Terra se tornará inabitável nos próximos anos. Assim, uma nova missão de reconhecimento para o planeta Gj-504b, que se mostra como o planeta mais adequado para o povoamento da raça humana. A nova equipe de reconhecimento é composta pela "capitã" da missão, Kayla. Além do engenheiro e projetista da nave,  um idoso que participou de uma antiga missão com o mesmo intuito e uma adolescente que não fazia parte da missão oficial. Assim, eles partem para o desconhecido.
 
 # Referencias
 Starfinder RPG;
@@ -13,5 +13,5 @@ Ex: Em determinado ponto da história, um dos personagens vai cometer um erro, o
 Ex: O rádio que se comunica com a Terra ao decorrer da história vai pegar frequência de outro planeta, escutando sons estranhos. Abrindo a possibilidade de interagir com ele.
  
 Ambientação por imagem.
-mostrar as características da nave, personagens e determinadas ações importantes para a compreensão ao decorrer da narratica com imagens acompanhadas do texto.
+mostrar as características da nave, personagens e determinadas ações importantes para a compreensão ao decorrer da narrativa com imagens acompanhadas do texto.
  
