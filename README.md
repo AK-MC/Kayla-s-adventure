@@ -9,6 +9,9 @@ O paradoxo Cloverfield
 Jogo em texto, estilo RPG. O jogador vai ler a história e escolher as ações que achar mais adequadas para o decorrer da história. Com mais de um final possível. Assim, tanto as ações podem variar de acordo com a escolha do jogador quanto o próprio final também.
 Ex: Em determinado ponto da história, um dos personagens vai cometer um erro, os outros personagens vão precisar escolher se manterão ele na na nave ou não. Entretanto, essa ação pode mudar o final ou interferir em algum ponto da narrativa.
 
+Jogabilidade
+Será um jogo individual, o jogador terá uma visão parecida com o de uma narrador onisciente, conforme avança a história. Não sendo possivel escolher jogar com um personagem especifico, mas sim inteferir no rumo geral da história.
+
 Áudio ambiente e "rádio" 
 Ex: O rádio que se comunica com a Terra ao decorrer da história vai pegar frequência de outro planeta, escutando sons estranhos. Abrindo a possibilidade de interagir com ele.
  
