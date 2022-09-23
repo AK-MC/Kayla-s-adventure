@@ -18,12 +18,10 @@ estados = {
         }
     },
     1: {
-        'frases': [200 anos após a pandemia de 2019, o ser humano se vê novamente no meio de uma nova calamidade.  Dessa vez, é consenso entre a sociedade científica que a Terra se tornará inabitável nos próximos anos. Assim, uma nova missão de reconhecimento para o planeta Gj-504b é realizada. A nova equipe é composta pela comandante da missão, Kayla. Além dela, há também o engenheiro Alef e o senhor Otto, um idoso que participou de uma missão com o mesmo intuito anteriormente. Assim, os três partem atrás de uma garantia de futuro para a humanidade.
-],
-        'Assim que iniciou a viagem, Kayla sentiu-se inquieta. Em meio ao barulho da conversa de seus colegas de missão, pensou em suas motivações para estar ali. Kayla então decide:
-': {
-            'sim': 2,
-            'não': 3
+        'frases': ['200 anos após a pandemia de 2019, o ser humano se vênovamente no meio de uma nova calamidade.  Dessa vez, é consenso entre a sociedade científica que a Terra se tornará inabitável nos próximos anos. Assim, uma nova missão de reconhecimento para o planeta Gj-504b é realizada. A nova equipe é composta pela comandante da missão, Kayla. Além dela, há também o engenheiro Alef e o senhor Otto, um idoso que participou de uma missão com o mesmo intuito anteriormente. Assim, os três partem atrás de uma garantia de futuro para a humanidade. \n Assim que iniciou a viagem, Kayla sentiu-se inquieta. Em meio ao barulho da conversa de seus colegas de missão, pensou em suas motivações para estar ali. Kayla então decide: \n Digite: \n "1" para  manter-se calada; \n  "2" para conversar com um deles; \n 3 para conversar com os dois;'],
+        'proximos_estados': {
+            '1': 2,
+            '2': 3
         }
     },
     2: {
@@ -33,6 +31,12 @@ estados = {
         }
     },
     3: {
+        'frases': ['Fim do jogo!', 'Parabéns!'],
+        'proximos_estados': {
+            'reiniciar': 1
+        }
+    },
+    4: {
         'frases': ['Fim do jogo!', 'Parabéns!'],
         'proximos_estados': {
             'reiniciar': 1
