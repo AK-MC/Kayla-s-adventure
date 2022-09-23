@@ -31,13 +31,7 @@ estados = {
         }
     },
     3: {
-        'frases': ['Fim do jogo!', 'Parabéns!'],
-        'proximos_estados': {
-            'reiniciar': 1
-        }
-    },
-    4: {
-        'frases': ['Fim do jogo!', 'Parabéns!'],
+        'frases': ['Fim do jogo!'],
         'proximos_estados': {
             'reiniciar': 1
         }
