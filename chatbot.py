@@ -18,10 +18,18 @@ estados = {
         }
     },
     1: {
-        'frases': ['200 anos após a pandemia de 2019, o ser humano se vênovamente no meio de uma nova calamidade.  Dessa vez, é consenso entre a sociedade científica que a Terra se tornará inabitável nos próximos anos. Assim, uma nova missão de reconhecimento para o planeta Gj-504b é realizada. A nova equipe é composta pela comandante da missão, Kayla. Além dela, há também o engenheiro Alef e o senhor Otto, um idoso que participou de uma missão com o mesmo intuito anteriormente. Assim, os três partem atrás de uma garantia de futuro para a humanidade. \n Assim que iniciou a viagem, Kayla sentiu-se inquieta. Em meio ao barulho da conversa de seus colegas de missão, pensou em suas motivações para estar ali. Kayla então decide: \n Digite: \n "1" para  manter-se calada; \n  "2" para conversar com um deles; \n 3 para conversar com os dois;'],
+        'frases': ['200 anos após a pandemia de 2019, o ser humano se vênovamente no meio de uma nova calamidade.  Dessa vez, é consenso entre a sociedade científica que a Terra se tornará inabitável nos próximos anos. Assim, uma nova missão de reconhecimento para o planeta Gj-504b é realizada. A nova equipe é composta pela comandante da missão, Kayla. Além dela, há também o engenheiro Alef e o senhor Otto, um idoso que participou de uma missão com o mesmo intuito anteriormente. Assim, os três partem atrás de uma garantia de futuro para a humanidade. \n Assim que iniciou a viagem, Kayla sentiu-se inquieta. Em meio ao barulho da conversa de seus colegas de missão, pensou em suas motivações para estar ali. Kayla então decide: \n Digite: \n "1" para  manter-se calada; \n  "2" para conversar com um deles; \n "3" para conversar com os dois;'],
         'proximos_estados': {
-            '1': 2,
-            '2': 3
+            '1': 2
+            '2': 2
+        }
+    },
+    2: {
+        'frases': ['Um estrondo alto interrompeu a conversa, Kayla olha para os colegas como quem pergunta se eles também escutaram. todos se levantaram, alertas. Otto saca uma arma rapidamente, o barulho cessa mas a tensão aumenta.\n o barulho parece ter vindo de lá - comenta Alef, apontando para o armazém.\n Deixa que eu veja o que foi isso  - disse Otto encaminhando-se para o armazém, onde estão guardadas as armas e os equipamentos. \n Por que ele tem uma arma? \n Kayla encara alef, seu olhar fazia a mesma pergunta \n -deixa que eu vou com ele. \n Kayla vinha atrás de Otto, ele para bruscamente e levanta sua arma na altura do rosto. Olhando para a mesma direção que a arma está apontada, Kayla vê uma menina com uma arma apontada em sua direção. Tenta não parecer atordoada, mas quase de forma automática puxa sua faca, pronta para um possível confronto. A menina, percebendo a reação, começa a intercalar a mira da arma entre os dois. \n-Não tentem nada! [ diz a menina] \n- Calma, calma … - comenta a comandante \n- Eu sei quem voce é, fale para o velhote abaixar a arma! \n- Você primeiro, criança. [responde Otto] \n Ela parece avançar com ódio da provocação, Kayla percebendo que nenhum ali está disposto a baixar a arma, tenta tomar o controle da situação.] \n- Larga a arma Otto! É uma ordem!  - grita Kayla. \n Otto,  como contra sua vontade, desce a arma lentamente.] \n -Sua vez garota! [Tremendo e assustada ela larga também] \n Kayla aproveita e corre para trás da jovem, com a faca em seu pescoço. A invasora se debate na tentativa inútil de escapar. Porém, kayla aperta seus pulsos facilmente. \n -já esperava isso vindo de voce, sua mentirosa! \n Fica calada! \n Alef se aproxima surpreso. \n O que está acontecendo aqui? -pergunta Alef \n Otto vai em direção da garota que se agitava e amarra seus pulsos] \n -também queremos saber - diz kayla \n Digite "1" para tentar conversar com a menina ou "2" para manter-la presa. 
+']: 
+        {
+            '1': 3,
+            '2': 4
         }
     },
     2: {
