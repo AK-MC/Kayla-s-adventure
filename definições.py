@@ -9,7 +9,7 @@ estados = {
     0: {
         'frases': ['Digite "iniciar" para começar o jogo.'],
         'proximos_estados': {
-            'iniciar': 1
+            'iniciar': 1,
         }
     },
     1: {
@@ -37,7 +37,21 @@ estados = {
         'frases': ['conversa com os dois'],
         'proximos_estados':{
             '1': 5,
-            '2': 6
+            '2': 6,
+        }
+    },
+
+    5:{
+        'frases': ['Levanto do meu lugar silencioso e me aproximo de Alef. Ele está empenhado em limpar o óculos, olhando de ângulos diferentes para ter certeza que não tem uma poeira sequer.  \n - Como está a Lia? Vi que estava ajustando os canais de comunicação com a Central. [ Ele põe o óculos, seus olhos castanhos claros me encaravam demoradamente. ] \n - Fiz uns ajustes nos parâmetros, ela está funcionando  perfeitamente. Não é Lia? \n - Sim senhor - responde o painel [ Alef da um sorriso satisfeito] \n - Você  está com uma cara ótima! -diz ele num tom sarcástico \n [Não durmo bem desde que a missão começou, a última coisa que estou é ótima.] \n -Estou nervosa com essa missão, sabemos o que está em risc… \n Digite "1" para continuar.'],
+        'proximos_estados': {
+            '1': 7,
+        }
+    },
+
+    6: {
+        'frases': ['Vejo que Otto está sentado com um livro sob o colo e tento me aproximar, aqui de onde estou ele parece entediado, mas quanto mais me aproximo vejo que ele está ocupado com seus pensamentos, parece está divagando sobre algo, isso automaticamente faz com que eu me arrependa de tentar uma aproximação, perto demais para recuar, tento conversar com ele mesmo assim: - Senhor Otto, tudo ok? \n -… (silêncio) \n -Otto? \n -Oi?! Não escuto muito, quando precisar fala mais alto, comandante. [falou parecendo incomodado com a repentina interferência ao seu monólogo interno] \n -Apenas perguntei se estava tudo bem, o senhor parece preocupado… \n -Estava só pensando… Mas não se preocupe com um velho como eu, não tenho mais nada a perder desde que… Digite "1" para continuar.'],
+        'proximos_estados': {
+            '1':7
         }
     },
     7: {
