@@ -34,13 +34,11 @@ estados = {
         }   
     },
     4: {
-        'frases': ['conversa com os dois'],
+        'frases': ['[ Otto lê um livro que parece ter uns 1000 anos, enquanto Alef toma      café ] \n -como vão as coisas ? \n -Alef estava me contando de forma super interessante de como ele ajustou a Lia - comentou Otto, visivelmente incomodado por interromperem sua leitura \n -Certo, qual o nome desse livr….\n Digite "continuar"'],
         'proximos_estados':{
-            '1': 5,
-            '2': 6
+            'continuar': 7
         }
     },
-
     5:{
         'frases': ['Levanto do meu lugar silencioso e me aproximo de Alef. Ele está empenhado em limpar o óculos, olhando de ângulos diferentes para ter certeza que não tem uma poeira sequer.  \n - Como está a Lia? Vi que estava ajustando os canais de comunicação com a Central. [ Ele põe o óculos, seus olhos castanhos claros me encaravam demoradamente. ] \n - Fiz uns ajustes nos parâmetros, ela está funcionando  perfeitamente. Não é Lia? \n - Sim senhor - responde o painel [ Alef da um sorriso satisfeito] \n - Você  está com uma cara ótima! -diz ele num tom sarcástico \n [Não durmo bem desde que a missão começou, a última coisa que estou é ótima.] \n -Estou nervosa com essa missão, sabemos o que está em risc… \n Digite "1" para continuar.'],
         'proximos_estados': {
@@ -55,11 +53,25 @@ estados = {
         }
     },
     7: {
-        'frases': ['Fim do jogo!'],
+        'frases': ['Um estrondo alto interrompeu a conversa, olho para meus colegas como quem pergunta se eles também escutaram. todos se levantaram, alertas. Otto sacou sua arma rapidamente, o barulho cessou, mas a tensão aumentou. Digite "continuar"'],
         'proximos_estados': {
-            'reiniciar': 1
+            'continuar': 8
+        }
+    },
+    8: {
+        'frases': ['- O barulho parece ter vindo de lá - comenta Alef, apontando para o armazém \n -Vou ver o que foi isso  - disse Otto encaminhando-se para o armazém, onde está guardada as armas e equipamentos. \n -Por que ele tem uma arma? \n Encaro Alef com a mesma expressão confusa, mas determinada a descobrir \n -Deixa que eu vou com ele. \n Digite "continuar"'],
+        'proximos_estados': {
+            'continuar': 9
+        }
+    },
+     9: {
+        'frases': ['Fui atrás de Otto, quase correndo para tentar alcançá-lo, quando ele para bruscamente e levanta sua arma na altura do rosto. Olhando para a direção em que a arma está apontada vejo uma menina, digo menina pois o máximo que ela aparenta ter é 17 anos, com uma arma direcionada a Otto e, consequentemente, a mim também. Esforço-me para não demonstrar o misto de confusão e atordoamento em que me encontro, o esforço se torna inútil quando vejo ela alternar a mira entre eu e o Otto e, quase de forma automática, puxo a faca que estava comigo. A garota, percebendo a reação, grita: \n -Não tentem nada! \n -Por favor, calma! Calma.. está tudo bem. [Falo olhando para ela enquanto tento me aproximar] \n -Não dê ouvidos a essa criança Comandante. [Otto fala, ainda com os olhos cerrados na menina] Percebo que a garota aparenta mais medo do ódio que Otto demonstra que de qualquer outro sentimento, penso em uma alternativa mais arriscada.  \n Otto, abaixe a arma imediatamente! \n Ele tira os olhos da menina e começa a me olhar fixamente como se quisesse entender se havia algum truque. Começa a abaixar a arma lentamente contra a sua vontade ao perceber que minha decisão não mudaria. A menina direciona seu olhar diretamente para mim, compartilhando o mesmo semblante confuso de Otto. Começo a me aproximar dela enquanto falo: \n -Sua vez, garota. Ninguém aqui vai te machucar, tem a minha palavra, quer você acredite ou não. Minha fala parece funcionar, pois mesmo tremendo e assustada ela começa a largar a arma também. Aproveito nesse instante para correr para atrás dela e a imobilizo, ela se debate em uma tentativa de se livrar, mas é inútil pois consigo apertar seus pulsos facilmente já que sou maior.\n -Você me enganou, sua mentirosa! \n -Otto! Vai buscar uma corda. \n Otto pega sua arma e sai correndo da sala em busca da corda, enquanto Alef se aproxima perplexo com a situação que encontra. \n -O que está acontecendo aqui? \n - É o que vamos descobrir. \n Digite "1" para tentar conversar com a invasora, "2" para prende-la '],
+        'proximos_estados': {
+            'continuar': 8
         }
     }
+    
+
 }
 
 partidas = {}
