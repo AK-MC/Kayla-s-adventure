@@ -75,7 +75,29 @@ estados = {
     10: {
         'frases': ['[Levo a intrusa para o centro da nave, ela não aparenta estar assustada. Quem será ela? e o que faz aqui? Mando ela se sentar] \n -Quem é você e como entrou aqui? \n [ a garota permanece calada] \n fala garota ! - esbraveja otto sem paciência \n [ todos olhavam para ela com curiosidade. Como uma adolecente conseguiu entrar ali sem que ninguém visse? O olhar dela era de revolta. A menina era de origem asiática, e encarava todos sem medo.] \n -Meu nome é Yoko - revela a adolecente \n -Está perdida Yoko? meio longe de casa não? - ironiza Alef \n [ Yoko se mantém quieta, fica evidente que essa é a única informação que teremos.] \n Não quer falar, então não fale. Vamos entrar em contato com a central, eles sabem de tudo e de todos. \n- Abre conexão com a agência, alef. - comando \n [Alef passa alguns minutos tentando uma conexão] \n -Não sei o que está acontecendo, não estou conseguindo estabelecer conexão com a Terra. \n -A Lia não funciona? [Me aproximo dele levemente preocupada] \n -Não, eu tenho certeza que está funcionando, mas o canal de comunicação está apresentando instabilidade, não consigo encontrar a nossa frequência. \n -É melhor sairmos daqui, rápido.[Diz Otto de forma alarmante] \n -Você sabe o que está acontecendo? -Questiono \n -A nave deve está sofrendo interferência pelos asteroides que tem nessa região. Acreditem em mim, vocês não vão querer continuar aqui por muito tempo… \n Digite "1" para permanecer no mesmo lugar até os asteroides passarem ou "2" para sair dali.'],
         'proximos_estados': {
-            '1': 12
+            '1': 12,
+            '2': 13
         }
     },
-    canais_de_voz = {}
+    11: {
+        'frases': [' Após me certificar que a menina estava bem amarrada, deixo ela em uma sala vazia e retomo a sala de comando onde meus colegas me aguardavam. \n -Temos que nos conectar com a agência, perguntar quem diabos é essa garota [Otto fala com irritação antes mesmo de eu me aproximar o suficiente. \n -Sim, vamos fazer isso imediatamente, ela não parece ser vinculada a nenhum grupo terrorista, mas precisamos entender como ela entrou na nave. \n -Vou abrir conexão com a Terra - Alef se dirige para o painel de controle. enquanto começo a andar inquietamente pela sala, pensando em tudo que acabou de acontecer. 10 minutos passam-se até que vendo Alef  desordenado, questiono se está tudo bem. \n-Estou tentando mas tem algo de estranho, tem uma frequência interferindo na conexão. \n -Mais isso agora, ótimo! - resmunga Otto \n -A Lia está com problema? - Me aproximo de Alef buscando entender. \n -Não,eu tenho certeza que está funcionando, mas o canal de comunicação está apresentando instabilidade, não consigo encontrar a nossa frequência. \n Percebo que a tensão toma conta do ambiente, principalmente pela expressão corporal de Otto que muda de irritado para aparentemente assustado, até que então fala de forma alarmante: \n -É melhor sairmos daqui,rápido! \n -Por que? - Questiono-o. \n -A nave deve estar sofrendo interferência por um aglomerado de asteroides. São muito comuns nessa região que estamos. Temos que sair daqui logo.\n Digite Digite "1" para permanecer no mesmo lugar até os asteroides passarem ou "2" para sair dali.'],
+        'proximos_estados': {
+            '1': 12,
+            '2': 13
+        }
+    },
+    12: {
+        'frases': ['Vamos ficar parados até os asteroides irem para outra direção - ordeno \n -Acho uma péssima ideia - diz otto com arrogância \n -iremos permanecer- digo firmemente \n[ A nave foi atingida enquanto eles discutiam. A lateral da nave colidiu com diversos asteroides, que agitaram um pouco a nave. Na direção deles vinham muito mais asteroides. \n -Droga…temos que sair daqui agora, se não pode danificar mais. Vou redirecionar a nave.- diz Alef [ Alef corre até o painel, mas não consegue controlar. parece que a batida interferiu no sistema. \n Digite "continuar"]'],
+        'proximos_estados': {
+            'continuar': 14
+        }
+    },
+13: {
+        'frases': ['- temos que sair desse lugar! Alef corre para o painel de controle da nave, quando de repente algo colide com a nave, automaticamente olham para o painel à frente e vêem as luzes de alerta piscando, a lateral foi atingida. Com isso, a sirene toca, olho para Alef, sua expressão é de alarme, tenho que fazer algo. Disparo em direção do painel de comando para tentar redirecionar a nave para outro lugar o mais rápido possível. Mas antes que eu consiga alcançar um asteroide colide com a nave me fazendo cair com a colisão. \n Digite "continuar"'],
+        'proximos_estados': {
+            'continuar': 14
+        }
+    },
+}
+
+canais_de_voz = {}
