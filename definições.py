@@ -86,10 +86,16 @@ estados = {
         }
     },
     12: {
-        'frases': ['Vamos ficar parados até os asteroides irem para outra direção - ordeno \n -Acho uma péssima ideia - diz otto com arrogância \n -iremos permanecer- digo firmemente \n[ A nave foi atingida enquanto eles discutiam. A lateral da nave colidiu com diversos asteroides, que agitaram um pouco a nave. Na direção deles vinham muito mais asteroides. \n -Droga…temos que sair daqui agora, se não pode danificar mais. Vou redirecionar a nave.- diz Alef [ Alef corre até o painel, mas não consegue controlar. parece que a batida interferiu no sistema]'],
+        'frases': ['Vamos ficar parados até os asteroides irem para outra direção - ordeno \n -Acho uma péssima ideia - diz otto com arrogância \n -iremos permanecer- digo firmemente \n[ A nave foi atingida enquanto eles discutiam. A lateral da nave colidiu com diversos asteroides, que agitaram um pouco a nave. Na direção deles vinham muito mais asteroides. \n -Droga…temos que sair daqui agora, se não pode danificar mais. Vou redirecionar a nave.- diz Alef [ Alef corre até o painel, mas não consegue controlar. parece que a batida interferiu no sistema. \n Digite "continuar"]'],
         'proximos_estados': {
-            'continuar': 9
+            'continuar': 14
         }
     },
-
+13: {
+        'frases': ['- temos que sair desse lugar! Alef corre para o painel de controle da nave, quando de repente algo colide com a nave, automaticamente olham para o painel à frente e vêem as luzes de alerta piscando, a lateral foi atingida. Com isso, a sirene toca, olho para Alef, sua expressão é de alarme, tenho que fazer algo. Disparo em direção do painel de comando para tentar redirecionar a nave para outro lugar o mais rápido possível. Mas antes que eu consiga alcançar um asteroide colide com a nave me fazendo cair com a colisão. \n Digite "continuar"'],
+        'proximos_estados': {
+            'continuar': 14
+        }
+    },
+    
 partidas = {}
