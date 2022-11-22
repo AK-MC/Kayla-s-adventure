@@ -97,5 +97,6 @@ estados = {
             'continuar': 14
         }
     },
-    
+}
+
 partidas = {}
