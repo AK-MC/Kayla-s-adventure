@@ -92,12 +92,21 @@ estados = {
             'continuar': 14
         }
     },
-13: {
-        'frases': ['- temos que sair desse lugar! Alef corre para o painel de controle da nave, quando de repente algo colide com a nave, automaticamente olham para o painel à frente e vêem as luzes de alerta piscando, a lateral foi atingida. Com isso, a sirene toca, olho para Alef, sua expressão é de alarme, tenho que fazer algo. Disparo em direção do painel de comando para tentar redirecionar a nave para outro lugar o mais rápido possível. Mas antes que eu consiga alcançar um asteroide colide com a nave me fazendo cair com a colisão. \n Digite "continuar"'],
+    14: {
+        'frases': ['- Consegui consertar o painel para fazer a nave sair do lugar, mas o tanque e outras partes foram atingidas - anuncia Alef- Vamos tentar um pouso em algum planeta próximo, ou não conseguiremos chegar até o Gj-504b.- o único planeta dessa galáxia com condições aceitáveis para pouso é o Osíris, mas não acredito que seja uma boa alternativa, é um planeta muito hostil e desconhecido. [avisa Otto] - Na situação em que estamos, qualquer coisa pode ser considerada. Kayla? -Alef está certo, precisamos tentar! \n Digite "continuar"'],
         'proximos_estados': {
-            'continuar': 14
+            'continuar': 15
         }
     },
+    13: {
+        'frases': ['- temos que sair desse lugar! Alef corre para o painel de controle da nave, quando de repente algo colide com a nave, automaticamente olham para o painel à frente e vêem as luzes de alerta piscando, a lateral foi atingida. Com isso, a sirene toca, olho para Alef, sua expressão é de alarme, tenho que fazer algo. Disparo em direção do painel de comando para tentar redirecionar a nave para outro lugar o mais rápido possível. Mas antes que eu consiga alcançar um asteroide colide com a nave me fazendo cair com a colisão. \n Digite "continuar"'],
+        'proximos_estados': {
+            'continuar':14
+        }
+    },
+    15: {
+        
+    }
 }
 
 canais_de_voz = {}
