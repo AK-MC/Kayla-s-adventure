@@ -153,11 +153,27 @@ estados = {
         }
     },
     23: {
-        'frases': ['Otto segura o pacote de gelo em seu rosto,depois de amarrar Alef deixamos no depósito onde Yoko ficou. \n -O que deu naquele cara? - questiona Yoko \n -Nao faco ideia, Alef nao é desse jeito. algo aconteceu enquanto ele foi lá fora que o deixou assim. - digo \n -Não venha defender seu namoradinho,você viu o que ele fez comigo ! - esbraveja otto \n -Ele não é meu namorado, e sim eu vi. Ele está fora de si,apresenta um risco a essa missão nesse momento. \n Vamos deixá-lo aqui e temos que partir. Ainda temos uma missão para concluir e nosso tempo está acabando, você sabe disso. - diz otto \n Digite "1" para deixar Alef fora da missão ou "2" para leva-lo'],
+        'frases': ['Otto segura o pacote de gelo em seu rosto,depois de amarrar Alef deixamos no depósito onde Yoko ficou. \n -O que deu naquele cara? - questiona Yoko \n -Nao faco ideia, Alef nao é desse jeito. algo aconteceu enquanto ele foi lá fora que o deixou assim. - digo \n -Não venha defender seu namoradinho,você viu o que ele fez comigo ! - esbraveja otto \n -Ele não é meu namorado, e sim eu vi. Ele está fora de si,apresenta um risco a essa missão nesse momento. \n Vamos deixá-lo aqui e temos que partir. Ainda temos uma missão para concluir e nosso tempo está acabando, você sabe disso. - diz otto \n Digite "1" para deixar Alef no planeta e seguir com a missão ou "2" para leva-lo'],
         'proximos_estados':{
             '1':24,
             '2':26
         }
+    },
+    24: {
+        'frases': ['Vocês vão abandonar ele aqui? Ele vai morrer. - comenta yoko \n -Eu não quero deixar Alef, sei que ele não é assim, ele nunca iria agredir otto. Mas eu jurei continuar o que o meu falecido marido começou \n -Ele vai ficar. - decido \n Saio da sala e volto ao trabalho que Alef estava fazendo antes de tudo começar. Investigo se a nave tem condições mínimas para decolar e, aparentemente, está tudo certo, Otto estava certo, se tivéssemos deixado o Alef naquele estado continuar a mexer aqui, poderíamos ter perdido tudo. Volto para onde deixamos o Alef decidida a acompanhar ele até fora da nave, nunca poderei me perdoar, sei que essa decisão significa deixá-lo para morrer, não posso fingir que não sei, mas não posso perder tudo agora, jurei que iria até às últimas consequências por essa missão. Encontro Alef acordando, meio confuso, sem entender o que está acontecendo. Ele me vê e parece tentar pronunciar meu nome, mas o som não sai, abro a sala em que ele está e ajudo-o a levantar, ele anda com dificuldade  e com as mãos ainda presas leva-as até a cabeça que parece estar doendo. \n -Alef, sei que você não está bem, e não espero que você me perdoe pelo que vou fazer, mas preciso que me acompanhe até a saída. -Falo tentando não chorar. \n Fora da nave, caminho com ele até uma distância segura, ele parece cansado da caminhada, falo para ele sentar. Sentado, Alef fecha os olhos. \n -Preciso ir, agora. -Falo enquanto desamarro suas mãos, e novamente aplico a arma de choque, dessa vez por menos tempo, só preciso voltar para a nave antes que ele acorde. Digite "continuar"'],
+        'proximos_estados': {
+            'continuar': 25
+        }
+    },
+    25:{
+        'frases':['A nave lança-se no espaço com certa dificuldade, estamos viajando há algumas horas, perdi a noção do tempo. \n -vou deixar o meu no automático, me chame se precisar. - digo para Otto, enquanto tiro meu cinto e vou em direção a Yoko. Dou alguns passos, até que escuto Lia falando: \n ERRO! ERRO! ATENÇÃO ERRO. \n Me volto para o painel e vejo que as luzes do painel estão piscando, volto correndo para meu lugar e tento entender o que está acontecendo, os níveis de energia estão diminuindo muito rapidamente. A pŕopria iluminação da nave diminui e Lia continua anunciando erros. Não sei o que fazer, peço para Otto assumir minha posição enquanto vou correndo a fonte de energia verificar se há algum problema na parte física que Alef estava tentando consertar ou se o sistema da nave não consegue identificar esse tipo de alimentação. Após procurar por qualquer coisa parecida com um vazamento, ou algo parecido, constato que é o sistema da nave. Esse sistema foi desenvolvido pelo Alef, nem mesmo Otto saberia comandar as funcionalidades. Percebendo isso, não me desespero, sei que não há mais nada que possamos fazer. Me encosto na parede e vou descendo com as mãos apoiadas na cabeça, até estar completamente sentada no chão. Nesse ponto, sorrio ao perceber que tive tanto medo que a missão falhasse por interferência de outra pessoa que deixei um homem para trás, e foi justamente isso que tornou impossível completar. Deseja voltar ao estado de decisão sobre deixar ou não Alef? Digite "1" para sim e "2" para não.'],
+        'proximos_estados':{
+            '1': 23,
+            '2': 30
+        }
+    },
+    26: {
+        'frases':['Vocês vão abandonar ele aqui? Ele vai morrer. - comenta yoko \n Eu não quero deixar Alef, sei que ele não é assim.E ele é o engenheiro da tripulação, ele sabe melhor do que ninguem como essa nave funciona. \n -Não vamos abandonar ele. Ele faz parte da equipe, e sei que ele vai melhorar. - digo decidida \n saio da sala e vou vê Alef. Entro no depósito, ele está deitado na cama , amarrado ainda. Ele parece tão calmo dormindo, muito diferente de antes. volto para a cabine de controle, Yoko e otto já estão lá, acho que estão esperando uma atitude minha.'],
     }
 }
 
