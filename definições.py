@@ -122,6 +122,43 @@ estados = {
             'continuar': 18
         }  
     },
+    18: {
+        'frases': [' Me encaminho para onde eles estão. Quanto mais me aproximo, os sons ficam mais reconhecíveis. Escuto Otto falando evidentemente furioso: \n -Você realmente está me dizendo que a única evidência que você tem que eu sou culpado pelo o que aconteceu com seu pai é que eu também estava naquela nave? \n -Você sabe que não, a última ligação que meu pai fez foi comigo, ele disse o quanto estava preocupado com o rumo da missão e como você parecia estar interessado em pousar no Gj-504b, mesmo sem nenhuma grande necessidade \n -Não vou discutir o que era, ou não, necessário com uma criança, você não sabe nada sobre o que aconteceu, exatamente como seu pai não sabia [Otto interrompe o que estava falando ao me ver, os dois me encararam, provavelmente perguntando-se desde quando eu estava ali. Toda aquela conversa era confusa demais para mim, mas agora posso começar a entender o porquê dessa menina estar aqui, preciso conversar com Otto para saber o que ele descobriu. \n -Otto, me siga por favor. \n- Sim - diz enquanto confirma com a cabeça, quase de forma serviçal, algo incomum para a postura recorrente. Quando eu ia questionar o que aconteceu entre ele e a Yoko, o comunicador do Alef emite um sinal sonoro. Procuro entender se ele está tentando entrar em contato, mas o sinal para, tento então checar a câmera do seu uniforme, mas parece está desligada começo a me preocupar, o que será que está acontecendo com o Alef, ele deve estar precisando de ajuda. Busco falar isso para Otto, que agora me olha de forma bem mais tranquila do que quando o encontrei. \n -Preciso encontrar o Alef! \n -Ele vai voltar, não deve ser nada de mais \n -Como pode ter tanta certeza? ele pode estar machucado ou precisando de ajuda. \n -Precisamos esperar, não temos certeza de onde ele está. Vamos tentar contato novamente, se ele não responder, em algumas horas eu mesmo irei atrás dele \n Digite "continuar"'],
+        'proximos_estados': {
+            'continuar': 19
+        }  
+    },
+    19:{
+        'frases': [ ' A porta se abre, olhamos e lá estava Alef. corro em sua direção, para ver como ele está. Ele parece meio grogue. /n -O que aconteceu? Perdemos o contato com você. \n -Eu não sei. Estava muito escuro, algo pulou no meu pescoço. \n olho uma picada em seu pescoço, tem uma aparência esverdeada \n Conseguiu? temos que sair daqui. \n -Sim, consegui. Vou começar imediatamente. \n- Eu te ajudo, Alef! Mas antes eu tenho que falar algo com a Yoko. \n Digite "continuar"'],
+        'proximos_estados':{
+            'continuar':20
+        }
+    },
+ 20:{
+        'frases': [ 'Chegando à sala em que Yoko está, vejo ela sentada no chão parecendo concentrada. \n -Ei menina, a essa altura você já deve saber que não conseguimos contato com a central, se quiser sair dessa sala vou precisar saber algumas informações sobre você. \n -Seu amigo já esteve aqui mais cedo, as informações de que precisa ele sabe. \n -Aquilo que presenciei não parecia muito com uma conversa. Vamos, estou tentando te ajudar, por que o Otto falou sobre seu pai? Vocês já se conheciam antes, não é mesmo? \n -Não, meu pai é quem conhecia ele. - A garota falou mostrando pouco interesse em continuar uma conversa. \n Não quer continuar falando, hum?! -Falo enquanto sento no chão ao lado dela, separadas pela porta de vidro da sala em que ela está retida. -Não sei quando sairemos daqui. Alef está tentando consertar a nave,isso pode levar horas ou dias, Vou te contar minha motivação para está aqui e talvez você me conte um pouco mais sobre você. \n Yoko se mantém calada, mas vejo que ela parece mais interessada. \n -Meu marido participou das últimas 3 missões, você é nova demais, mas deve saber que as missões AK-MC32 e AK-MC33 foram um fracasso completo, a última missão, porém, chegamos tão perto, nunca vou entender o que aconteceu, o porque não conseguimos. Você se lembra da última vez que a humanidade tentou, não é mesmo, 6 anos atrás. Meu marido era o capitão dessa missão, ele estava obcecado, tinha certeza que tudo daria certo, revisou todos os erros cometidos anteriormente, todas as rotas. No fim, todos sabemos como terminou a missão, Apenas Otto voltou,uma tripulação de 8 pessoas, mais treinadas e inteligentes do que minha equipe de agora, quase todos mortos. É por isso que estou aqui, quero continuar o que ele começou, não faço pelo futuro da humanidade, só quero dar sentido ao trabalho que ele dedicou a vida. \n -Sinto muito, meu pai estava nessa missão também. \n Digite "continuar" para descobrir um pouco mais sobre a históŕia de Yoko'],
+        'proximos_estados':{
+            'continuar':21
+        }
+    },
+    21:{
+        'frases': ['-Seu pai? - Olho para ela sem esconder minha surpresa. \n -Meu pai era o Astronauta Shin Takahashi, eu tinha  11 anos quando ele foi para essa missão, ele conversava comigo quase todos os dias, usando o painel de controle da nave em conexão a um dispositivo que ele mesmo construiu para mim antes de partir. Tenho motivos para acreditar que o fracasso inexplicável dessa missão não foi um acaso, meu pai não morreu por um erro técnico ou de cálculo, foi por interesse, é o que quero provar, vim aqui atrás disso. \nAchei você ! Alef enlouqueceu, ele tentou me agredir, acredito que ele esta tendo alucinações. - Otto interrompe a conversa e diz apavorado \n -Vamos lá ver - digo enqunato aperto o botão da "cela" e solto Yoko. -vamos Yoko, você vai com a gente. \n Otto parece não gostar da minha atitude mas nao diz nada. fomos a cabine de controle achamos Alef, ele está ainda soldando. ele não parecia nada bem \n -isso já está bom Alef, vamos decolar - diz otto \n Alef não responde. Ele olha ao redor, encarando cada um de nós como se tentasse nos reconhecer, seus olhos estavam vermelhos e seu rosto estava pálido \n Solta isso garoto! - Diz Otto, impaciente. Encaminha-se em direção ao Alef.'],
+        'proximos_estados':{
+            'continuar':22
+        }
+    },
+    22:{
+        'frases': ['Alef continua trabalhando como se não escutasse Otto que se aproxima e, forçando-o a parar o empurra, Alef então vira-se em direção ao senhor e possuído por uma fúria que nunca vi em seu rosto acerta Otto com um soco, me espanto com esse golpe, e sem tempo para pensar no que devo fazer tento me aproximar, mas yoko segura meu braço e me olha como se pedisse para que não tentasse nada, enquanto isso, Alef tenta se aproximar de Otto em mais uma tentativa de atingi-lo, Otto se desvia instintivamente e parece buscar a arma que tinha antes, Alef parece perceber isso e interrompe esse movimento com um chute na altura do estômago o que deixa o senhor, aparentemente, sem ar, se curvado até que cai com as duas mãos apoiadas no chão. Alef se aproxima dele e lhe direciona um soco no rosto, mesmo com Otto caído e sem reação, Alef continua a socar, nessa hora me solto de Yoko procuro minha arma de choque, me aproximo de Alef o máximo que consigo, pois sinto que nesse estado, nem mesmo eu conseguiria controlá-lo, aproximo meu dispositivo de choque em seu pescoço até que ele fique completamente inconsciente. Tiro ele de cima de Otto e me direciono para Yoko: \n -Busque uma corda para mim, por favor, você sabe onde encontrar. \n Ela sai, enquanto tenta ajudar Otto a se levantar. \n "Digite continuar"'],
+        'proximos_estados':{
+            'continuar': 23
+        }
+    },
+    23: {
+        'frases': ['Otto segura o pacote de gelo em seu rosto,depois de amarrar Alef deixamos no depósito onde Yoko ficou. \n -O que deu naquele cara? - questiona Yoko \n -Nao faco ideia, Alef nao é desse jeito. algo aconteceu enquanto ele foi lá fora que o deixou assim. - digo \n -Não venha defender seu namoradinho,você viu o que ele fez comigo ! - esbraveja otto \n -Ele não é meu namorado, e sim eu vi. Ele está fora de si,apresenta um risco a essa missão nesse momento. \n Vamos deixá-lo aqui e temos que partir. Ainda temos uma missão para concluir e nosso tempo está acabando, você sabe disso. - diz otto \n Digite "1" para deixar Alef fora da missão ou "2" para leva-lo'],
+        'proximos_estados':{
+            '1':24,
+            '2':26
+        }
+    }
 }
 
 canais_de_voz = {}
