@@ -173,8 +173,18 @@ estados = {
         }
     },
     26: {
-        'frases':['Vocês vão abandonar ele aqui? Ele vai morrer. - comenta yoko \n Eu não quero deixar Alef, sei que ele não é assim.E ele é o engenheiro da tripulação, ele sabe melhor do que ninguem como essa nave funciona. \n -Não vamos abandonar ele. Ele faz parte da equipe, e sei que ele vai melhorar. - digo decidida \n saio da sala e vou vê Alef. Entro no depósito, ele está deitado na cama , amarrado ainda. Ele parece tão calmo dormindo, muito diferente de antes. volto para a cabine de controle, Yoko e otto já estão lá, acho que estão esperando uma atitude minha.'],
+        'frases':['Vocês vão abandonar ele aqui? Ele vai morrer. - comenta yoko \n Eu não quero deixar Alef, sei que ele não é assim.E ele é o engenheiro da tripulação, ele sabe melhor do que ninguem como essa nave funciona. \n -Não vamos abandonar ele. Ele faz parte da equipe, e sei que ele vai melhorar. - digo decidida \n saio da sala e vou vê Alef. Entro no depósito, ele está deitado na cama , amarrado ainda. Ele parece tão calmo dormindo, muito diferente de antes. volto para a cabine de controle, Yoko e otto já estão lá, acho que estão esperando uma atitude minha. \n Digite "continuar"'],
+        'proximos_estados': {
+         'continuar': 27
+        }
+    },
+    27: {
+        'frases': [''
+
+        ]
     }
 }
+
+
 
 canais_de_voz = {}
