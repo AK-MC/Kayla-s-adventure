@@ -179,12 +179,26 @@ estados = {
         }
     },
     27: {
-        'frases': [''
-
-        ]
+        'frases': ['-vamos decolar - digo, já me dirigindo a minha poltrona \n -Ainda acho que nao devemos levar ele- diz otto \n Apenas ignoro seu comentário, não entendo a insistência de Otto. -Sente-se Yoko, e aperte bem a trava de segurança. Tudo certo para decolar Lia? -Portas fechadas;atmosfera estável; bateria cheia. decolagem autorizada - diz Lia \n Digite "continuar"'],
+        'proximos_estados':{
+            "continuar": 28
+        }
+    },
+    28: {
+        'frases':['A nave lança-se no espaço com certa dificuldade, estamos viajando há algumas horas, perdi as contas \n -vou deixar o meu no automático,me chame se precisar. - digo para otto \n me dirigi ao depósito, Alef está acordado. Ele parece estar bem. o hematoma em seu pescoço já diminuiu. \n -Como você está, Alef? \n  Ele parece não entender o por que está ali, ele olha para suas mãos amarradas, percebo a confusão em seu olhar. \n -Por que estou amarrado? o que aconteceu? \n Você não lembra? Foi tudo muito rápido, você agrediu Otto,estava alterado, teve que intervir,foi mal pelo choque. \n -choque!? eu não me lembro de nada. Como ele está? \n -Ah, está mais ranzinza do que nunca. ta com alguns hematomas, mas nada grave \n -Nesse momento Lia dispara o alarme de energia,  \n ERRO! ERRO! ATENÇÃO ERRO.  \n o som é alto e as luzes ficam vermelhas. vou rapidamente encontrar otto para saber o que aconteceu. Alef me segue, quando chegamos otto olha diretamente para Alef, era um olhar de profundo ódio. \n Me volto para o painel e vejo que as luzes do painel estão piscando, volto correndo para meu lugar e tento entender o que está acontecendo, os níveis de energia estão diminuindo muito rapidamente. Lia continua anunciando erros. \n -Sei o que fazer, eu projetei o sistema, ele não está aceitando esse tipo de alimentação. - Alef corre até o painel, não sei o que ele está fazendo, só ele entende esse sistema. \n Digite "continuar"'],
+        'proximos_estados':{
+        'continuar': 29
+        }
+    },
+    29: {
+        'frases':['-O que ele está fazendo? ele não entende nada! ele tentou me matar - diz otto de modo agressivo  \n Alef se vira por um instante, está com um olhar de quem pede desculpas. \n -Eu não tive a intenção de te matar Otto, não sei por que fiquei daquele jeito, me desculpe - diz alef se redimindo \n -Você é um perigo para a missão, por mim você teria ficado naquele planeta para morrer.- diz otto \n Não entendo esse ódio todo de Otto, mas não importa, a nave está com problemas isso é mais preocupante no momento. \n Isso não é hora de ficar brigando Otto, como está o sistema Alef? - pergunto \n -Mudei a forma como ele processa a alimentação da nave, não teremos mais problemas com isso. - diz alef \n Estamos os quatro na cabine de controle e o clima está tenso. Yoko olha para todos sem falar nada. Otto parece quieto, quieto até demais. \n Otto pega sua arma e aponta para Alef, foi tão rápido que a primeiro momento fiquei paralisada.  Alef levanta as mãos, para acalmar Otto \n O que você está fazendo Otto? - pergunto  \n Calada! Eu não aguento mais vocês, por culpa de vocês e dessa garota- diz apontando para Yoko- que a missão está falhando, mas eu não vou deixar isso acontecer. Não me importo de seguir sozinho - diz Otto, seu olhar era decidido, ele iria matar a todos. Digite "continuar"'],
+        'proximos_estados':{
+        'continuar': 30
+        }
+    },
+    30:{
+        'frases':[' Ele dispara, a bala sai veloz, foi tão rápido, durou micros segundos. A bala acerta Alef de raspão, ele cai no chão, enquanto pressiona o abdomen que sangra. Yoko grita apavorada, pego minha arma pronta para lutar. Aponto para Otto me colocando na frente de Alef para protegê-lo. \n - Já consegui tudo o que eu queria, agora posso me livrar de vocês. E você vai ser a primeira - diz olhando para mim. - seu marido também era bem metido, só parou quando minha bala acertou sua testa. Eu não queria fazer o mesmo contigo, mas você me deixou sem escolhas. \n Ele matou meu marido,meus olhos se enchem de lágrimas,lembro dele todos os dias. Meu sangue está fervendo de ódio,minhas mãos tremem, mas isso não vai ficar assim, vou vingar meu marido, sua morte não pode ter sido em vão. sem pensar muito, corro em sua direção, ele demonstra surpresa, ele dispara, a bala atinge minha coxa, com a adrenalina não sinto nada, quero matá-lo. Empurro ele para o chão,com o impacto a sua arma cai, dou vários socos nele, não vou parar até ele está morto. \n -Kayla pare isso não vale a pena! - diz Alef me tirando de cima de Otto,reluto para sair. \n Otto permanece no chão, com sua boca ensanguentada ele ri de forma perversa. \n -Alef segura meus braços, entendo que ele não quer que eu vire uma assassina. Mas estou com tanto ódio e tristeza que não consigo pensar em mais nada. Com esforço Otto consegue levantar-se, ele continua rindo. \n - Belo soco meu bem - diz tocando sua boca ainda sangrando- Mas eu não fiz tanto para morrer assim. Seu marido não precisava morrer, estava indo tudo como eu queria na missão, desviava materiais valiosos aqui,alterava dados ali, mas qual o problema? Eu não iria voltar para aquele inferno de Terra de mãos vazias, tudo estava indo bem até Shin Takahashi me descobrir, aquele maldito contou para seu marido. Ah mas ele deve o fim que merecia - diz gargalhando. - Joguei o tolo no vazio do espaço para morrer- diz Otto. \n Um tiro é disparado, sua risada é silenciada. Seus olhos perdem a vida aos poucos, seu corpo vai caindo. Yoko está com a arma que disparou, atrás do corpo agora caído de Otto. O chão se enche de sangue, Alef me solta, estamos atônitos. \n -Ele matou meu pai - diz Yoko chorando e ofegante - Estou sozinha no mundo por culpa dele. - diz apontando para o corpo no chão. \n Ela é só uma menina, dou um abraço demorado nela. Quero que se sinta amparada, ela continua a chorar. Perdemos entes queridos pela ganância desse homem. Me sinto culpada, como eu não percebi nada antes? Minha coxa dói, minha adrenalina abaixa, preciso fazer um curativo urgente. - Destino próximo, preparar pouso- somos interrompidos pela voz de Lia \n Alef olha no painel, dá uns comandos para Lia \n -Chegamos no nosso destino - diz Alef surpreso. \n Em meio a todo caos me esqueci que estávamos perto do planeta Gj-504b, enfim nossa missão vai se concluída, a humanidade vai poder ter esperança novamente. Pousamos, estamos todos nervosos mas chegou a hora de sair da nave e explorar esse planeta desconhecido.'],
+            }
     }
-}
-
-
-
+    
 canais_de_voz = {}
